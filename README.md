@@ -1,6 +1,6 @@
 # dotfiles & list of programs
  
- So I wanted to just backup my most used files. I have a bad habit, sometimes I get tired of a distro and do a wipe and start all over fresh. 
+ **So I wanted to just backup my most used files. I have a bad habit, sometimes I get tired of a distro and do a wipe and start all over fresh.** 
  
  * Distro - Arch
  * WM - i3-gaps
