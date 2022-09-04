@@ -1,0 +1,16 @@
+call plug#begin('~/.vim/plugged')
+
+"Fugitive Vim Github Wrapper
+Plug 'tpope/vim-fugitive'
+
+" youcompleteme
+Plug 'valloric/youcompleteme'
+
+" Vim-Airline-Themes
+"Plug 'bling/vim-airline'
+
+" Gruvbox
+Plug 'morhetz/gruvbox'
+
+call plug#end()
+
