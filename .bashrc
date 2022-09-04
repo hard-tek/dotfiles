@@ -14,7 +14,7 @@ alias sw='cd ~/Pictures/Screenshots && sleep 5 && maim -i $(xdotool getactivewin
 alias sa='cd ~/Pictures/Screenshots && sleep 3 && maim -s "$(date +%Y-%m-%d_%H:%M:%S).png"'
 alias afk='i3lock -c 000000'
 alias yt='ytfzf -tf'
-alias mp3='youtube-dl -f 140'
+alias mp3='yt-dlp -f 140'
 alias vim='nvim'
 alias ls='ls --color=auto'
 alias wdl='/home/ht/gits/waldl/./waldl'
