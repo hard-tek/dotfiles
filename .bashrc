@@ -19,7 +19,7 @@ alias mp3='yt-dlp -f 140'
 alias ls='ls --color=auto'
 alias wdl='/home/ht/gits/waldl/./waldl'
 alias suspend='systemctl suspend'
-alias rec='ffmpeg -video_size 1920x1080 -framerate 30 -f x11grab -i :0.0 -f pulse -i default -c:v libx264rgb -crf 0 -preset fast -color_range 2 output.mkv'
+alias rec='ffmpeg -video_size 1920x1080 -framerate 30 -f x11grab -i :0.0 -f pulse -i default -c:v libx264rgb -crf 0 -preset fast -color_range 2 output.mp4'
 
 # PS1='[\u@\h \W] $'
 # PS1='\e[1m\e[38;5;40m{\t}\e[0m\n\e[38;5;198m{\w}\e[0m\n\e[38;5;196m\e[0m\e[38;5;40m$\e[0m'
