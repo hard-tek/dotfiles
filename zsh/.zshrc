@@ -1,4 +1,5 @@
 pfetch
+export EDITOR=vim
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -115,4 +116,5 @@ alias mp3='yt-dlp -f 140'
 alias ls='ls --color=auto'
 alias wdl='/home/ht/gits/waldl/./waldl'
 alias suspend='systemctl suspend'
+alias rec='ffmpeg -video_size 1920x1080 -framerate 30 -f x11grab -i :0.0 -f pulse -i default -c:v libx264rgb -crf 0 -preset fast -color_range 2 output.mkv'
 
