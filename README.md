@@ -4,7 +4,7 @@
  
  * Distro - Arch
  * WM - i3-gaps
- * Terminal - Kitty
+ * Terminal - Alacritty
  * File Manager - ranger
  * Music Player - musikcube
  * Reddit Client - tuir
